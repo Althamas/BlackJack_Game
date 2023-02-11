@@ -1,2 +1,14 @@
 # BlackJack_Game
 Blackjack is a casino banked game, meaning that players compete against the house rather than each other. The objective is to get a hand total of closer to 21 than the dealer without going over 21 ( busting ). At the start of a Blackjack game, the players and the dealer receive two cards each.
+
+############### Our Blackjack House Rules #####################
+
+## The deck is unlimited in size. 
+## There are no jokers. 
+## The Jack/Queen/King all count as 10.
+## The the Ace can count as 11 or 1.
+## Use the following list as the deck of cards:
+## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+## The cards in the list have equal probability of being drawn.
+## Cards are not removed from the deck as they are drawn.
+## The computer is the dealer.
