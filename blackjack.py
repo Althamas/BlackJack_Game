@@ -1,5 +1,6 @@
 import random
 from replit import clear
+from art import logo
 
 def draw_card():
     cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
@@ -30,6 +31,7 @@ def check_score(user_score,computer_score):
     else:
         return "You Lose. Computer Scored near to 21"
 def play():
+    print(logo)
     is_end_game = False
     user_card = []
     computer_card = []
